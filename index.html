@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML tutorial</title>
+
+    <script src="https://kit.fontawesome.com/8d615edcfd.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono%7CIBM+Plex+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./assets/images/logo.svg" class="logo" />
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#episodes">EPISODIOS</a></li>
+            <li><a href="#whereWeComeFrom">NOSOTROS</a></li>
+            <li><a href="#stellarGuests">ENTREVISTAS</a></li>
+            <li><a href="#someOfOurThemes">TÓPICOS</a></li>
+        </ul>
+    </header>
+
+    <div class="information">
+        <p class="helloworld">Hello <span class="lineThrough">world</span> pale blue dot<span class="dot">.</span></p>
+        <p class="portal">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos
+            episodios, todos los
+            jueves cada 15 días.</p>
+        <a class="button" href="#whereWeComeFrom">CONOCÉ MÁS</a>
+    </div>
+
+    <div class="episodes" id="episodes">
+        <!-- al de abajo overflow hidden -->
+        <div class="transformGradient"></div>
+        <p>Episodios</p>
+        <div class="iframes">
+            <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" class="iframeImg"
+                allowfullscreen allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" class="iframeImg"
+                allowfullscreen allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" class="iframeImg"
+                allowfullscreen allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" class="iframeImg"
+                allowfullscreen allow="encrypted-media"></iframe>
+        </div>
+    </div>
+
+    <div class="whereWeComeFrom" id="whereWeComeFrom">
+        <img src="./assets/images/phone.png" alt="Where we come from?" class="imgWhereWeComeFrom">
+
+        <div class="divPWhereWeComeFrom">
+            <p class="titleWhereWeComeFrom">De dónde venimos</p>
+            <p class="pWhereWeComeFrom">Our posturings, our imagined self-importance, the delusion that we have some
+                privileged position in the
+                Universe, are challenged by this point of pale light.
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness,
+                there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
+    </div>
+
+    <div class="stellarGuests" id="stellarGuests">
+        <p class="pStellarGuests">Invitadas/os estelares</p>
+
+        <div class="imgStellarGuests-first">
+            <img src="./assets/images/grace-hopper.png" alt="Where we come from?" class="imgStellarGuests">
+            <img src="./assets/images/Katie-Bouman.png" alt="Where we come from?" class="imgStellarGuests">
+            <img src="./assets/images/Margaret_Hamilton.png" alt="Where we come from?" class="imgStellarGuests">
+        </div>
+        <div class="imgStellarGuests-second">
+            <img src="./assets/images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Where we come from?"
+                class="imgStellarGuests">
+            <img src="./assets/images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                alt="Where we come from?" class="imgStellarGuests">
+            <img src="./assets/images/susan-kare.png" alt="Where we come from?" class="imgStellarGuests">
+        </div>
+    </div>
+
+    <div class="someOfOurThemes" id="someOfOurThemes">
+        <p class="titleSomeOfOurThemes">Algunos de nuestros temas</p>
+        <div class="listSomeOfOurThemes">
+            <div class="imgPSomeOfOurThemes">
+                <img src="./assets/images/icon1.svg" class="svgSomeOfOurThemes" />
+                <p class="pSomeOfOurThemes">Trabajo remoto</p>
+            </div>
+            <div class="imgPSomeOfOurThemes">
+                <img src="./assets/images/icon2.svg" class="svgSomeOfOurThemes" />
+                <p class="pSomeOfOurThemes">Repensando la programación</p>
+            </div>
+            <div class="imgPSomeOfOurThemes">
+                <img src="./assets/images/icon3.svg" class="svgSomeOfOurThemes" />
+                <p class="pSomeOfOurThemes">Bases del código</p>
+            </div>
+            <div class="imgPSomeOfOurThemes">
+                <img src="./assets/images/icon4.svg" class="svgSomeOfOurThemes" />
+                <p class="pSomeOfOurThemes">Seguridad informática</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="divLatestNews" id="divLatestNews">
+        <div class="transformGradient"></div>
+        <p class="titleLatestNews">¿Querés las últimas novedades?</p>
+        <a class="buttonLatestNews" href="#episodes">ESCUCHÁ LOS EPISODIOS</a>
+    </div>
+
+    <footer class="footer">
+        <p class="copyFooter">© 2019— Hello blue pale dot </p>
+        <div class="iconsFooter">
+            <a href="https://www.spotify.com/co/" target="_blank"><i class="fab fa-spotify iconSocialNetwork"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram iconSocialNetwork"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter iconSocialNetwork"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook iconSocialNetwork"></i></a>
+            <a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram iconSocialNetwork"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
