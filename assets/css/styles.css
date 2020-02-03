@@ -118,7 +118,7 @@ a {
   position: relative;
 }
 
-.episodes > p {
+.episodes > h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   color: #ffffff;
@@ -465,7 +465,7 @@ a {
     padding: 186px 11px 0px 11px;
   }
 
-  .episodes > p {
+  .episodes > h2 {
     font-size: 48px;
     padding-left: 13.9%;
     padding-bottom: 72px;
